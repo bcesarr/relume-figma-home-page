@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Parte das Informações a Esquerda */
+
+.product-service-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 112px;
+    padding-left: 64px;
+    padding-right: 64px;
+    gap: 80px
+}
+
+.product-service-container h6 {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.product-service-container h2 {
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+
+.product-service-container button {
+    width: 129px;
+    height: 48px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 16px;
+    color: black;
+}
+
+/* Parte do Sumario */
+
+.summary-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.summary-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px
+}
+
+.summary-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+.image-cube{
+    width: 36px;
+    height: 40px;
+}
+
+.icon-divider-summary {
+    width: 2px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+/* Para Remover o Icone de Separação do Ultimo "Card" do Sumario */
+
+.icon-divider-remove {
+    display: none;
+}
+
+.summary-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.summary-content h3 {
+    font-size: 20px;
+}
+
+.summary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
