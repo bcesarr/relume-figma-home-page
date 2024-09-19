@@ -46,7 +46,33 @@ export default function Home() {
 
             </div>
 
-            <Section />
+            <div>
+                <Section
+                    subtitle="Feature one"
+
+                    title="Describe benefit of feature one"
+    
+                    paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
+                />
+
+                <Section aligment="right"
+
+                    subtitle="Feature two"
+
+                    title="Describe benefit of feature two"
+    
+                    paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
+                />
+
+                <Section
+                    subtitle="Feature three"
+
+                    title="Describe benefit of feature three"
+    
+                    paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
+                />
+
+            </div>
             
             
         </div>
