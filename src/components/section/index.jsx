@@ -1,7 +1,7 @@
 import "./style.css";
 import Image from "../../assets/images/placeholder-image.svg";
 
-export default function Section({ title, subtitle, paragraph, aligment }) {
+export default function Section({ subtitle, title, paragraph, aligment }) {
     return (
         <div className={`section-container section-${aligment}`}>
             <img src={Image} alt="Imagem de local de imagem vazio para se colocar imagem" />
