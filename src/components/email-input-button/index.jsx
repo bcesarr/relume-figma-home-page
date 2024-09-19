@@ -1,6 +1,6 @@
 import "./style.css";
 
-export default function emailInputButton() {
+export default function emailInputButton({underline}) {
     return (
         <div className="email-input-container">
             <div className="email-button">
@@ -8,10 +8,8 @@ export default function emailInputButton() {
         
                 <button type="button">Try it for free</button>
             </div>
-                
-            <div>
-                <p><span>By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</span></p>
-            </div>
+            
+            <p className={`terms-conditions-${underline}`}>By clicking Sign Up you're confirming that you agree with our <span>Terms and Conditions</span>.</p>
 
         </div>
     )

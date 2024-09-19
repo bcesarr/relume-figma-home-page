@@ -5,7 +5,7 @@ import IconDividerSummary from "../../assets/images/icons/icon-divider.svg";
 export default function ProductService({subtitle, title, button}) {
     return (
 
-        <div className="product-service-container">
+        <section className="product-service-container">
             <div>
                 <h6>{subtitle}</h6>
 
@@ -39,7 +39,7 @@ export default function ProductService({subtitle, title, button}) {
 
             </div>
 
-        </div>
+        </section>
     )
 }
 

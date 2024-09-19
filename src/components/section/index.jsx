@@ -3,7 +3,7 @@ import Image from "../../assets/images/placeholder-image.svg";
 
 export default function Section({ subtitle, title, paragraph, aligment }) {
     return (
-        <div className={`section-container section-${aligment}`}>
+        <section className={`section-container section-${aligment}`}>
             <img src={Image} alt="Imagem de local de imagem vazio para se colocar imagem" />
 
             <div className="section-text">
@@ -17,6 +17,6 @@ export default function Section({ subtitle, title, paragraph, aligment }) {
 
             </div>
 
-        </div>
+        </section>
     )
 }

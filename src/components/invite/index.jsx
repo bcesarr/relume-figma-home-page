@@ -5,14 +5,16 @@ import RelumeLogoInvite from "../../assets/images/relume-logo.svg";
 
 export default function Invite() {
     return (
-        <div className="invite-container">
+        <section className="invite-container">
             <div className="invite-content">
                 <h2>Call to action that invites visitor to<br/>try the product for free</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros<br/> elementum tristique.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros<br /> elementum tristique.</p>
+                
+            </div>
 
+            <div>
                 <EmailInputButton />
-
             </div>
 
             <div className="invite-companies">
@@ -25,7 +27,7 @@ export default function Invite() {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 

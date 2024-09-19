@@ -6,7 +6,7 @@ import WebflowLogo from "../../assets/images/webflow-logo.svg";
 
 export default function Comments({peapleName}) {
     return (
-        <div className="comments-container">
+        <section className="comments-container">
             <img src={Stars} alt="icone com 5 estrelas" />
 
             <p> <b>"A customer testimonial that highlights features and answers potential<br/>customer doubts about your product or service. Showcase testimonials<br/>from a similar demographic to your customers."</b> </p>
@@ -26,6 +26,6 @@ export default function Comments({peapleName}) {
 
             </div>
 
-        </div>
+        </section>
     )
 }

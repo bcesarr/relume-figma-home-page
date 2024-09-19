@@ -10,11 +10,11 @@
 .email-input-container{
     display: flex;
     flex-direction: column;
+    gap: 16px;
 }
 
 .email-button {   /* Div com o Campo de Input e o Botão */
-    display: flex;  
-    margin-bottom: 16px;
+    display: flex;
     gap: 16px;
 }
 
@@ -32,6 +32,16 @@
     color: white;
 }
 
-.email-input-container span {
+.email-input-container p {
     font-size: 12px;
+}
+
+.email-input-container span {
+    text-decoration: underline;
+}
+
+/* Deixando o Paragrafo de Termos e Condições Subilinhado */
+.terms-conditions-true {
+    font-size: 12px;
+    text-decoration: underline;
 }
