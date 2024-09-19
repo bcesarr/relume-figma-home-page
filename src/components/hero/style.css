@@ -34,26 +34,6 @@
     margin-bottom: 24px;
 }
 
-.email-button {   /* Div com o Campo de Input e o Botão */
-    display: flex;  
-    margin-bottom: 16px;
-    gap: 16px;
-}
-
-.email-button input {
-    width: 357px;
-    height: 48px;
-    border: 1px solid black;
-}
-
-.email-button button {
-    width: 140px;
-    height: 48px;
-    background-color: black;
-    font-size: 16px;
-    color: white;
-}
-
 .hero-infos span {
     font-size: 12px;
 }

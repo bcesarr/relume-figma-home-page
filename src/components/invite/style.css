@@ -6,3 +6,63 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+.invite-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 112px;
+    gap: 48px;
+}
+
+.invite-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.invite-content h2 {
+    font-size: 48px;
+}
+
+.invite-content p {
+    font-size: 18px;
+}
+
+.invite-companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40.75px;
+}
+
+.invite-companies p {
+    font-size: 16px;
+}
+
+.companies-logos-div{
+    display: flex;
+    gap: 51.48px;
+}
+
+.invite-logos-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50.52px;
+}
+
+.webflow-logo-invite {
+    width: 134.98px;
+    height: 22.50px;
+}
+
+.relume-logo-invite {
+    width: 132.52px;
+    height: 35.87px;
+}

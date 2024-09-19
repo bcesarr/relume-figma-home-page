@@ -5,6 +5,7 @@ import ProductService from "../../components/product-service";
 import Card from "../../components/card";
 import Section from "../../components/section";
 import Comments from "../../components/comments";
+import Invite from "../../components/invite";
 
 // Importando imagens e icones.
 import Cube from "../../assets/images/icons/icon-cube.svg";
@@ -57,42 +58,41 @@ export default function Home() {
                 button="Learn more"
             />
             
+            <Section
+                subtitle="Feature one"
 
-            <div>
-                <Section
-                    subtitle="Feature one"
+                title="Describe benefit of feature one"
 
-                    title="Describe benefit of feature one"
-    
-                    paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
-                />
+                paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
+            />
 
-                <Comments 
-                    peapleName="Custumer Name" 
-                />
+            <Comments 
+                peapleName="Custumer Name" 
+            />
 
-                <Section aligment="right"
+            <Section aligment="right"
 
-                    subtitle="Feature two"
+                subtitle="Feature two"
 
-                    title="Describe benefit of feature two"
-    
-                    paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
-                />
+                title="Describe benefit of feature two"
 
-                <Comments 
-                    peapleName="Name Surname"   
-                />
+                paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
+            />
 
-                <Section
-                    subtitle="Feature three"
+            <Comments 
+                peapleName="Name Surname"   
+            />
 
-                    title="Describe benefit of feature three"
-    
-                    paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
-                />
+            <Section
+                subtitle="Feature three"
 
-            </div>
+                title="Describe benefit of feature three"
+
+                paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
+            />
+
+            <Invite />
+
             
             
         </div>
