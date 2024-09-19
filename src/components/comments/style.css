@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.comments-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 112px;
+    gap: 32px
+}
+
+.comments-container p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.custumer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar-image {
+    width: 56px;
+    height: 56px;
+}
+
+.icon-divider-comments {
+    height: 61px;
+    background-color: black;
+}
+
+.webflow-logo {
+    width: 134.98px;
+    height: 22.5px;
+}
+
+.custumer-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px
+}
+
+.custumer-info p {
+    font-size: 16px;
+}
