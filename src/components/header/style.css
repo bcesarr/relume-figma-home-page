@@ -17,19 +17,19 @@ header {
     border-bottom: 2px solid black;
 }
 
-nav {
+.nav-header {
     display: flex;
     gap: 32px;
 }
 
-nav ul {
+.nav-header ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
 
-nav>ul>a {
+.nav-header>ul>a {
     display: flex;
     justify-content: center;
     align-items: center;
