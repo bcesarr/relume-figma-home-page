@@ -9,19 +9,11 @@
 
 /* ----- Card Dinâmico ----- */
 
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 112px;
-    padding-left: 64px;
-    padding-right: 64px;
-    gap: 48px;
-}
-
 .card {
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    width: 405.33px;
     gap: 24px;
 }
 
@@ -40,3 +32,13 @@
     line-height: 1.5;
 }
 
+/* Código da Parte do Card que Esta na Home */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 112px;
+    padding-left: 64px;
+    padding-right: 64px;
+    gap: 48px;
+}

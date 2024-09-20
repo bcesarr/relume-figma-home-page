@@ -7,7 +7,7 @@ export default function ProductService() {
     return (
 
         <section className="product-service-container">
-            <div>
+            <div className="product-service-content-left">
                 <h6>How it works</h6>
 
                 <h2>Headline with USP related to how your product or service works</h2>
