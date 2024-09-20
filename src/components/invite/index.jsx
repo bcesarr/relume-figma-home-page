@@ -13,7 +13,7 @@ export default function Invite() {
                 
             </div>
 
-            <div>
+            <div className="input-container">
                 <EmailInputButton />
             </div>
 

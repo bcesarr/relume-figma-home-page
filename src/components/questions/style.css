@@ -6,3 +6,64 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+.questions-container-left {
+    display: flex;
+    justify-content: center;
+    margin-top: 112px;
+    padding-left: 64px;
+    padding-right: 64px;
+    gap: 80px;
+}
+
+.questions-content h2 {
+    font-size: 48px;
+}
+
+.questions-content p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+
+.questions-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-top: 1px solid black;
+    gap: 22.50px;
+}
+
+.questions-card-container p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.questions-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.questions-top h3 {
+    font-size: 18px;
+}
+
+.questions-top button {
+    width: 32px;
+    height: 32px;
+    border: none;
+}
+
+/* Adicionando uma Borda Embaixo do Card do Question */
+.question-card-border-bottom {
+    border-bottom: 1px solid black;
+}

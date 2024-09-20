@@ -6,6 +6,8 @@ import Card from "../../components/card";
 import Section from "../../components/section";
 import Comments from "../../components/comments";
 import Invite from "../../components/invite";
+import Questions from "../../components/questions";
+import Footer from "../../components/footer";
 
 // Importando imagens e icones.
 import Cube from "../../assets/images/icons/icon-cube.svg";
@@ -50,13 +52,7 @@ export default function Home() {
 
             </div>
 
-            <ProductService
-                subtitle="How it works"
-                
-                title="Headline with USP related to how your product or service works"
-
-                button="Learn more"
-            />
+            <ProductService />
             
             <Section
                 subtitle="Feature one"
@@ -93,7 +89,9 @@ export default function Home() {
 
             <Invite />
 
-            
+            <Questions />
+
+            <Footer />
             
         </div>
     )

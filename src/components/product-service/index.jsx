@@ -3,14 +3,14 @@ import ButtonPS from "../button";
 import ImageCube from "../../assets/images/icons/icon-cube.svg"
 import IconDividerSummary from "../../assets/images/icons/icon-divider.svg";
 
-export default function ProductService({subtitle, title, button}) {
+export default function ProductService() {
     return (
 
         <section className="product-service-container">
             <div>
-                <h6>{subtitle}</h6>
+                <h6>How it works</h6>
 
-                <h2>{title}</h2>
+                <h2>Headline with USP related to how your product or service works</h2>
 
                 <ButtonPS
                     buttonName="Learn more"

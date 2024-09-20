@@ -33,6 +33,10 @@
     font-size: 18px;
 }
 
+.input-container {
+    text-align: center;
+}
+
 .invite-companies {
     display: flex;
     flex-direction: column;
