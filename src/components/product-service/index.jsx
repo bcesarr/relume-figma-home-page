@@ -1,4 +1,5 @@
 import "./style.css";
+import ButtonPS from "../button";
 import ImageCube from "../../assets/images/icons/icon-cube.svg"
 import IconDividerSummary from "../../assets/images/icons/icon-divider.svg";
 
@@ -11,7 +12,10 @@ export default function ProductService({subtitle, title, button}) {
 
                 <h2>{title}</h2>
 
-                <button type="button">{button}</button>
+                <ButtonPS
+                    buttonName="Learn more"
+                />
+                
             </div>
 
             <div className="summary-card-container">

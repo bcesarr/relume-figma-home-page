@@ -1,4 +1,5 @@
 import "./style.css";
+import ButtonHeader from "../button";
 // Importamos o logo chamando de "Logo" e buscamos o caminho da pasta assim.
 import Logo from "../../assets/images/company-logo.svg";  
 import { ChevronDown } from "lucide-react";  // Icone de seta para baixo do menu do Header.
@@ -17,7 +18,10 @@ export default function Header() {
                 </ul>
             </nav>
 
-            <button type='button'>Try it for free</button>
+            <ButtonHeader switchButton="switch"
+                buttonName="Try it for free"
+            />
+
         </header>
     )
 }

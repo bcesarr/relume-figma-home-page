@@ -1,4 +1,5 @@
 import "./style.css";
+import ButtonSection from "../button";
 import Image from "../../assets/images/placeholder-image.svg";
 
 export default function Section({ subtitle, title, paragraph, aligment }) {
@@ -13,7 +14,9 @@ export default function Section({ subtitle, title, paragraph, aligment }) {
                 
                 <p>{paragraph}</p>
 
-                <button>Learn more</button>
+                <ButtonSection
+                    buttonName="Learn more"
+                />
 
             </div>
 
