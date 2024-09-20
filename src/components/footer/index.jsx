@@ -12,7 +12,9 @@ export default function Footer() {
     return (
         <footer>
             <div className="footer-principal">
-                <img src={LogoFooter} alt="logomarca da empresa" />
+                <a href="#">
+                    <img src={LogoFooter} alt="logomarca da empresa" />
+                </a>
 
                 <nav className="nav-footer">
                     <ul>
@@ -25,11 +27,26 @@ export default function Footer() {
                 </nav>
 
                 <div className="social-midias">
-                    <img src={LogoFacebook} alt="Icone do Facebook" />
-                    <img src={LogoInstagram} alt="Icone do Instagram" />
-                    <img src={LogoX} alt="Icone do X" />
-                    <img src={LogoLinkedin} alt="Icone do Linkedin" />
-                    <img src={LogoYoutube} alt="Icone do Youtube" />
+                    <a href="#">
+                        <img src={LogoFacebook} alt="Icone do Facebook" />
+                    </a>
+
+                    <a href="#">
+                        <img src={LogoInstagram} alt="Icone do Instagram" />
+                    </a>
+
+                    <a href="#">
+                        <img src={LogoX} alt="Icone do X" />
+                    </a>
+
+                    <a href="#">
+                        <img src={LogoLinkedin} alt="Icone do Linkedin" />
+                    </a>
+
+                    <a href="#">
+                        <img src={LogoYoutube} alt="Icone do Youtube" />
+                    </a>
+        
                 </div>
 
             </div>

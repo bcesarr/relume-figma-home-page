@@ -29,8 +29,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 361.5px;
-    margin-right: 256.5px;
+    margin-left: 310px;
+    margin-right: 205px;
 }
 
 .nav-footer ul {
@@ -50,8 +50,8 @@ footer {
 }
 
 .social-midias img {
-    width: 20px;
-    height: 20px;
+    width: 21px;
+    height: 21px;
 }
 
 .footer-end {
