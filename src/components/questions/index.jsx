@@ -1,11 +1,12 @@
 import "./style.css";
+import { useState } from "react"
 import ButtonQuestion from "../button";
-import { ChevronUp } from "lucide-react";  // Icone de seta para cima do campo das questions.
+import { ChevronUp, ChevronDown } from "lucide-react";  // Icone de seta para cima do campo das questions.
 
 export default function Questions() {
     return (
 
-        <section className="questions-container-left">
+        <section className="questions-container-geral">
             <div className="questions-content">
                 <h2>Frequently asked questions</h2>
 
@@ -18,7 +19,7 @@ export default function Questions() {
             </div>
 
             <div>
-                <QuestionCard />
+                <QuestionCard isOpenDefault="true"/>
                 <QuestionCard />
                 <QuestionCard />
                 <QuestionCard />
@@ -29,16 +30,20 @@ export default function Questions() {
     )
 }
 
-function QuestionCard({borderLine}) {
+function QuestionCard({borderLine, isOpenDefault = false}) {
+    const [isOpen, setIsOpen] = useState(isOpenDefault);
+
     return (
         <div className={`questions-card-container question-card-border-${borderLine}`}>
             <div className="questions-top">
                 <h3>Question text goes here</h3>
 
-                <button type="button"> <ChevronUp /> </button>
+                <button type="button" onClick={() => setIsOpen(!isOpen)} > {isOpen ? <ChevronUp /> : <ChevronDown />}</button>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            {isOpen && (
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            )}
 
         </div>
     )

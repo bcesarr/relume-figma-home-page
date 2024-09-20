@@ -13,13 +13,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 320px;
+    padding-left: 64px;
+    padding-right: 64px;
     border-bottom: 2px solid black;
 }
 
 .nav-header {
     display: flex;
-    gap: 32px;
+    margin-left: 340px;
 }
 
 .nav-header ul {
@@ -33,7 +34,51 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 9.7px;
     font-size: 16px;
     color: black;
+}
+
+.menu-link-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 17px;
+    margin-right: 271px;
+}
+
+.menu-link-four button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 16px;
+    gap: 4px;
+}
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    gap: 4px;
+    width: 97px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.dropdown-menu a {
+    font-size: 16px;
+    color: black;
+    padding: 3px 3px;
+}
+
+.dropdown-menu a:hover {
+    color: white;
+    background-color: black;
+    transition: 0.2s;
 }
