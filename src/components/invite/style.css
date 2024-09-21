@@ -1,3 +1,4 @@
+/* Configurações Gerais */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Seção Inteira */
 .invite-container {
     display: flex;
     flex-direction: column;
@@ -16,6 +18,7 @@
     gap: 48px;
 }
 
+/* Primeira Parte da Seção */
 .invite-content {
     display: flex;
     flex-direction: column;
@@ -25,18 +28,22 @@
     gap: 24px;
 }
 
+/* Titulo */
 .invite-content h2 {
     font-size: 48px;
 }
 
+/* Paragrafo */
 .invite-content p {
     font-size: 18px;
 }
 
+/* Parte do input do Componente do Email */
 .input-container {
     text-align: center;
 }
 
+/* Seção Geral das Empresas */
 .invite-companies {
     display: flex;
     flex-direction: column;
@@ -45,15 +52,18 @@
     gap: 40.75px;
 }
 
+/* Texto acima das Logos das Empresas */
 .invite-companies p {
     font-size: 16px;
 }
 
+/* Div onde vai o Componente das Logos */
 .companies-logos-div{
     display: flex;
     gap: 51.48px;
 }
 
+/* Div Geral do Componente dos logos */
 .invite-logos-div {
     display: flex;
     justify-content: center;
@@ -61,11 +71,13 @@
     gap: 50.52px;
 }
 
+/* Imagem do Logo da Webflow */
 .webflow-logo-invite {
     width: 134.98px;
     height: 22.50px;
 }
 
+/* Image do Logo da Relume */
 .relume-logo-invite {
     width: 132.52px;
     height: 35.87px;

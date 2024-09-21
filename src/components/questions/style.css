@@ -1,3 +1,4 @@
+/* Configurações Gerais */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Seção Geral */
 .questions-container-geral {
     display: flex;
     justify-content: center;
@@ -16,14 +18,17 @@
     gap: 80px;
 }
 
+{/* Parte dos Conteúdos da Esquerda da Seção */}
 .questions-content {
     width: 500px;
 }
 
+/* Titulo */
 .questions-content h2 {
     font-size: 48px;
 }
 
+/* Texto do Lado Esquerdo */
 .questions-content p {
     font-size: 18px;
     text-align: justify;
@@ -32,7 +37,7 @@
     margin-bottom: 32px;
 }
 
-
+/* Div Geral dos Cards */
 .questions-card-container {
     display: flex;
     flex-direction: column;
@@ -43,13 +48,7 @@
     gap: 10px;
 }
 
-.questions-card-container p {
-    font-size: 16px;
-    text-align: justify;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
+/* Parte de Cima do Card */
 .questions-top {
     display: flex;
     justify-content: space-between;
@@ -59,10 +58,12 @@
     margin-bottom: 10px;
 }
 
+/* Titulo */
 .questions-top h3 {
     font-size: 18px;
 }
 
+/* Botão da Seta */
 .questions-top button {
     width: 32px;
     height: 32px;
@@ -72,4 +73,12 @@
 /* Adicionando uma Borda Embaixo do Card do Question */
 .question-card-border-bottom {
     border-bottom: 1px solid black;
+}
+
+/* Texto do Card */
+.questions-card-container p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }

@@ -1,3 +1,4 @@
+/* Configuração Geral */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Estilo da Seção em Geral dos Comentarios */
 .comments-container {
     display: flex;
     justify-content: center;
@@ -16,11 +18,13 @@
     gap: 32px
 }
 
+/* Texto do Comentario */
 .comments-container p {
     font-size: 24px;
     text-align: center;
 }
 
+/* Container Geral das Informações do Comentarista */
 .custumer-container {
     display: flex;
     justify-content: center;
@@ -28,21 +32,13 @@
     gap: 20px;
 }
 
+/* Imagem da Pessoa */
 .avatar-image {
     width: 56px;
     height: 56px;
 }
 
-.icon-divider-comments {
-    height: 61px;
-    background-color: black;
-}
-
-.webflow-logo {
-    width: 134.98px;
-    height: 22.5px;
-}
-
+/* Estilo das Informações da Pessoa - Nome e Posição / Empresa */
 .custumer-info {
     display: flex;
     justify-content: center;
@@ -50,6 +46,28 @@
     gap: 3px
 }
 
+/* Nome do Comentarista */
+.custumer-info h3 {
+    font-size: 16px;
+}
+
+/* Posição / Empresa da Pessoa */
 .custumer-info p {
     font-size: 16px;
 }
+
+/* Icone da Barra Divisória */
+.icon-divider-comments {
+    height: 61px;
+    background-color: black;
+}
+
+/* Imagem do Logo da Webflow */
+.webflow-logo {
+    width: 134.98px;
+    height: 22.5px;
+}
+
+
+
+

@@ -1,53 +1,53 @@
 // Importando os componentes da Página.
-import Header from "../../components/header";
-import Hero from "../../components/hero";
-import ProductService from "../../components/product-service";
-import Card from "../../components/card";
-import Section from "../../components/section";
-import Comments from "../../components/comments";
-import Invite from "../../components/invite";
-import Questions from "../../components/questions";
-import Footer from "../../components/footer";
+import Header from '../../components/header';
+import Hero from '../../components/hero';
+import ProductService from '../../components/product-service';
+import Card from '../../components/card';
+import Section from '../../components/section';
+import Comments from '../../components/comments';
+import Invite from '../../components/invite';
+import Questions from '../../components/questions';
+import Footer from '../../components/footer';
 
-// Importando imagens e icones.
-import Cube from "../../assets/images/icons/icon-cube.svg";
+// Importando imagem
+import Cube from '../../assets/images/icons/icon-cube.svg';
 
 
 export default function Home() {
     return (
-        <div className="app-container">
+        <div className='app-container'>
             <Header />
             <Hero />
             
-            <div className="card-container">
+            <div className='card-container'>
                 <Card
                     image={Cube}
 
-                    imgAlt="Imagem de um icone de um cubo pequeno"
+                    imgAlt='Imagem de um icone de um cubo pequeno'
 
-                    title="Highlight benefit one"
+                    title='Highlight benefit one'
 
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+                    paragraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.'
                 />
 
                 <Card
                     image={Cube}
 
-                    imgAlt="Imagem de um icone de um cubo pequeno"
+                    imgAlt='Imagem de um icone de um cubo pequeno'
 
-                    title="Highlight benefit two"
+                    title='Highlight benefit two'
 
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+                    paragraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.'
                 />
 
                 <Card
                     image={Cube}
 
-                    imgAlt="Imagem de um icone de um cubo pequeno"
+                    imgAlt='Imagem de um icone de um cubo pequeno'
 
-                    title="Highlight benefit three"
+                    title='Highlight benefit three'
 
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+                    paragraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.'
                 />
 
             </div>
@@ -55,36 +55,36 @@ export default function Home() {
             <ProductService />
             
             <Section
-                subtitle="Feature one"
+                subtitle='Feature one'
 
-                title="Describe benefit of feature one"
+                title='Describe benefit of feature one'
 
-                paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
+                paragraph='Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers.'
             />
 
             <Comments 
-                peapleName="Custumer Name" 
+                peapleName='Custumer Name'
             />
 
-            <Section aligment="right"
+            <Section aligment='right'
 
-                subtitle="Feature two"
+                subtitle='Feature two'
 
-                title="Describe benefit of feature two"
+                title='Describe benefit of feature two'
 
-                paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
+                paragraph='Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers.'
             />
 
             <Comments 
-                peapleName="Name Surname"   
+                peapleName='Name Surname'   
             />
 
             <Section
-                subtitle="Feature three"
+                subtitle='Feature three'
 
-                title="Describe benefit of feature three"
+                title='Describe benefit of feature three'
 
-                paragraph="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
+                paragraph='Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers.'
             />
 
             <Invite />

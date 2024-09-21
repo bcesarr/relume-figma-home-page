@@ -1,3 +1,4 @@
+/* Configurações Gerais */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Footer em Geral */
 footer {
     height: 321px;
     display: flex;
@@ -18,6 +20,7 @@ footer {
     gap: 80px;
 }
 
+/* Primeira Parte do Footer */
 .footer-principal {
     display: flex;
     justify-content: center;
@@ -25,6 +28,7 @@ footer {
     
 }
 
+/* Navegação do Footer - Links */
 .nav-footer {
     display: flex;
     justify-content: center;
@@ -33,27 +37,32 @@ footer {
     margin-right: 205px;
 }
 
+/* Ul dos Links do Centro do Footer */
 .nav-footer ul {
     display: flex;
     gap: 32px;
 }
 
+/* Links do Centro do Footer */
 .nav-footer > ul > a {
     font-size: 16px;
     font-weight: 600;
     color: black;
 }
 
+/* Div das Midias Sociais */
 .social-midias{
     display: flex;
     gap: 12px;
 }
 
+/* Logos das Midias Sociais */
 .social-midias img {
     width: 21px;
     height: 21px;
 }
 
+/* Segunda Parte do Footer */
 .footer-end {
     display: flex;
     justify-content: center;
@@ -62,10 +71,12 @@ footer {
     gap: 24px;
 }
 
+/* Texto Final de Direitos Reservados */
 .footer-end p {
     font-size: 14px;
 }
 
+/* Links do Fim do Footer */
 .footer-end a {
     font-size: 14px;
     color: black;

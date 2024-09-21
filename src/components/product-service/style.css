@@ -1,3 +1,4 @@
+/* Configurações Gerais */
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +8,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-/* Parte das Informações a Esquerda */
-
+/* Toda a Seção */
 .product-service-container {
     display: flex;
     justify-content: center;
@@ -19,15 +19,18 @@
     gap: 80px
 }
 
+/* Parte das Informações a Esquerda */
 .product-service-content-left {
     width: 616px;
 }
 
+/* Mini Texto Acima do Titulo */
 .product-service-content-left h6 {
     font-size: 16px;
     margin-bottom: 16px;
 }
 
+/* Titulo */
 .product-service-content-left h2 {
     font-size: 48px;
     text-align: left;
@@ -35,7 +38,7 @@
 }
 
 /* Parte do Sumario */
-
+/* Onde Vai o Componente dos Cards */
 .summary-card-container{
     display: flex;
     flex-direction: column;
@@ -43,12 +46,14 @@
     width: 616px;
 }
 
+/* Div de Configuração dos Cards */
 .summary-container {
     display: flex;
     justify-content: center;
     gap: 40px
 }
 
+/* Parte dos Icones dos Cards */
 .summary-icons {
     display: flex;
     flex-direction: column;
@@ -56,11 +61,13 @@
     gap: 20px
 }
 
+/* Imagem do Cubo */
 .image-cube{
     width: 36px;
     height: 40px;
 }
 
+/* Imagem da Barra */
 .icon-divider-summary {
     width: 2px;
     height: 100px;
@@ -69,21 +76,23 @@
 }
 
 /* Para Remover o Icone de Separação do Ultimo "Card" do Sumario */
-
 .icon-divider-remove {
     display: none;
 }
 
+/* Conteúdo de Dentro do Card */
 .summary-content {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
+/* Titulo */
 .summary-content h3 {
     font-size: 20px;
 }
 
+/* Texto de Dentro do Card */
 .summary-content p {
     font-size: 16px;
     text-align: justify;

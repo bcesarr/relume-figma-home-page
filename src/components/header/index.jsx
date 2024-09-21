@@ -1,41 +1,59 @@
-import "./style.css";
-import { useState } from "react";
-import ButtonHeader from "../button";
-// Importamos o logo chamando de "Logo" e buscamos o caminho da pasta assim.
-import LogoHeader from "../../assets/images/company-logo.svg";  
-import { ChevronDown, ChevronUp } from "lucide-react";  // Icone de seta para baixo do menu do Header.
+// Importando o CSS
+import './style.css';
+
+// Importando o "useState"
+import { useState } from 'react';
+
+// Importando o Componente do Botão
+import ButtonHeader from '../button';
+
+// Importando Imagens
+import LogoHeader from '../../assets/images/company-logo.svg';  
+
+// Importando Icones da Biblioteca "lucide-react"
+import { ChevronDown, ChevronUp } from 'lucide-react';  // Icone de seta para baixo do menu do Header.
 
 export default function Header() {
+    // Variavel criada para usar o "useState"
     const [menuIsOpen, setMenuIsOpen] = useState(false);
     
     return (
         <header>
-            <a href="#">
-                <img src={LogoHeader} alt="logomarca da empresa" />
+            <a href='#'>
+                {/* Imagem do Logo da Empresa */}
+                <img src={LogoHeader} alt='logomarca da empresa' />
             </a>
 
-            <nav className="nav-header">
+            {/* Menu dos Links do Topo da Página */}
+            <nav className='nav-header'>
                 <ul>
-                    <a href="#">Link One</a>
-                    <a href="#">Link Two</a>
-                    <a href="#">Link Three</a>
+                    <a href='#'>Link One</a>
+                    <a href='#'>Link Two</a>
+                    <a href='#'>Link Three</a>
                 </ul>
             </nav>
 
-            <div className="menu-link-four">
+            {/* Link com o Accordion - Setinha com Icone para Baixo e Outros Menus */}
+            <div className='menu-link-four'>
+                
+                {/* Accordion com Operador Ternário */}
+                {/* "onClick" - Evento ao Clicar no Botão; "setMenuIsOpen" - Mudar a Situação do "menuIsOpen" para Diferente do que Ela estiver - Se estiver "False" fica "True" e, vice versa; "menuIsOpen ?" - Significa: O Menu "está aberto ?" - Mude para a Seta para Cima, "Se Não" - ":", Seta para Baixo.    */}
                 <button onClick={() => setMenuIsOpen(!menuIsOpen)}>Link Four{menuIsOpen ? <ChevronUp size={25}/> : <ChevronDown size={25}/>} </button>
                 
+                {/* && Significa que o Resultado Daquela Ação Sera Somente este, no Caso, Mostrar o Menu Abaixo, Não Tera Outra Ação Depois */}
                 {menuIsOpen && (
-                    <ul className="dropdown-menu">
-                        <a href="">Link One</a>
-                        <a href="">Link Two</a>
-                        <a href="">Link Three</a>
+                    // Menu "Dentro" do Link Four que Aparecera ao Clicar na Seta.
+                    <ul className='dropdown-menu'>
+                        <a href='#'>Link One</a>
+                        <a href='#'>Link Two</a>
+                        <a href='#'>Link Three</a>
                     </ul>
                 )}
             </div>
-
-            <ButtonHeader switchButton="switch"
-                buttonName="Try it for free"
+            
+            {/* Chamando o Componente do Botão e Trocando com a "pror" - "switch" o Estilo e Cor do Botão */}
+            <ButtonHeader switchButton='switch'
+                buttonName='Try it for free'
             />
 
         </header>

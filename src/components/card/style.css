@@ -1,3 +1,4 @@
+/* Configuração Geral */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 }
 
 /* ----- Card Dinâmico ----- */
-
+/* Estilo do Card (Card Individual) */
 .card {
     display: flex;
     justify-content: center;
@@ -32,7 +33,7 @@
     line-height: 1.5;
 }
 
-/* Código da Parte do Card que Esta na Home */
+/* Código da Parte do Card que Está na Home */
 .card-container {
     display: flex;
     justify-content: center;

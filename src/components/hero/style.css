@@ -9,7 +9,8 @@
 }
 
 /* Hero da Página */
-.hero {   /* Toda a Section do Hero */
+/* Toda a Section do Hero */
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,15 +20,18 @@
     gap: 80px;
 }
 
-.hero img {   /* Imagem do Lado Direito do Hero */
+/* Imagem do Lado Direito do Hero */
+.hero img {   
     width: 616px;
     height: 640px;
 }
 
+/* Titulo */
 .hero-infos h2 {
     font-size: 56px;
 }
 
+/* Paragrafo */
 .hero-infos p {
     font-size: 18px;
     margin-top: 24px;

@@ -1,3 +1,4 @@
+/* Configurações Gerais */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Seção Geral */
 .section-container {
     display: flex;
     justify-content: center;
@@ -16,36 +18,32 @@
     padding-right: 64px;
 }
 
+/* Imagem */
 .section-container img {
     width: 516px;
     height: 540px;
     margin-right: 80px;
 }
 
+/* Mini Texto */
 .section-text h6 {
     font-size: 16px;
     margin-bottom: 16px;
 }
 
+/* Titulo */
 .section-text h2 {
     font-size: 46px;
     margin-bottom: 24px;
 }
 
+/* Texto da Seção */
 .section-text p {
     font-size: 18px;
     margin-bottom: 24px;
 }
 
-.section-text button {
-    width: 129px;
-    height: 48px;
-    border: 1px solid black;
-    font-size: 16px;
-}
-
 /* Para Mudar o Hero para o Lado Direito */
-
 .section-right {
     display: flex;
     flex-direction: row-reverse;

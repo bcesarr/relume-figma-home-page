@@ -1,3 +1,4 @@
+/* Configurações Gerais */
 * {
     margin: 0;
     padding: 0;
@@ -7,23 +8,27 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Div Geral com o Input, Botão e Texto de Termos */
 .email-input-container{
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.email-button {   /* Div com o Campo de Input e o Botão */
+/* Div com o Campo de Input e o Botão */
+.email-button {
     display: flex;
     gap: 16px;
 }
 
+/* Input do Email */
 .email-button input {
     width: 357px;
     height: 48px;
     border: 1px solid black;
 }
 
+/* Botão do Input */
 .email-button button {
     width: 140px;
     height: 48px;
@@ -32,10 +37,12 @@
     color: white;
 }
 
+/* Texto dos Termos e Condições */
 .email-input-container p {
     font-size: 12px;
 }
 
+/* Para Subilinhar Somente o Span*/
 .email-input-container span {
     text-decoration: underline;
 }

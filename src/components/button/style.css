@@ -1,3 +1,4 @@
+/* Configuração Geral */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Botão em Geral */
 button {
     width: 129px;
     height: 48px;
@@ -17,7 +19,6 @@ button {
 }
 
 /* Mudando o Estilo do Botão */
-
 .button-switch {
     width: 132px;
     height: 40px;
