@@ -5,7 +5,7 @@ import './style.css';
 import EmailInputButton from '../email-input-button';
 
 // Importando Imagem
-import Placeholder from '../../assets/images/placeholder-image.svg';
+import { PlaceholderImage } from '../../assets/images/importImages';
 
 export default function Hero() {
     return (
@@ -16,13 +16,12 @@ export default function Hero() {
                 <p>Describe exactly what your product or service does to solve this problem.<br /> Avoid using verbose words or phrases.</p>
 
                 {/* Chamando Componente do Email */}
-                <EmailInputButton underline='true'/>
-        
+                <EmailInputButton underline='true' />
+
             </div>
-            
-            <img src={Placeholder} alt='Imagem de um local vazio na pag, esperando uma imagem ser adicionada' />
+
+            <img src={PlaceholderImage} alt="Imagem de um local vazio na pag, esperando uma imagem ser adicionada" />
 
         </section>
-
-    )
+    );
 }

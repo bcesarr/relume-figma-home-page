@@ -1,16 +1,8 @@
 // Importando os componentes da Página.
-import Header from '../../components/header';
-import Hero from '../../components/hero';
-import ProductService from '../../components/product-service';
-import Card from '../../components/card';
-import Section from '../../components/section';
-import Comments from '../../components/comments';
-import Invite from '../../components/invite';
-import Questions from '../../components/questions';
-import Footer from '../../components/footer';
+import { Header, Hero, ProductService, Card, Section, Comments, Invite, Questions, Footer } from '../../components/importComponents';
 
 // Importando imagem
-import Cube from '../../assets/images/icons/icon-cube.svg';
+import { IconCube } from '../../assets/images/importImages';
 
 
 export default function Home() {
@@ -18,10 +10,10 @@ export default function Home() {
         <div className='app-container'>
             <Header />
             <Hero />
-            
+
             <div className='card-container'>
                 <Card
-                    image={Cube}
+                    image={IconCube}
 
                     imgAlt='Imagem de um icone de um cubo pequeno'
 
@@ -31,7 +23,7 @@ export default function Home() {
                 />
 
                 <Card
-                    image={Cube}
+                    image={IconCube}
 
                     imgAlt='Imagem de um icone de um cubo pequeno'
 
@@ -41,7 +33,7 @@ export default function Home() {
                 />
 
                 <Card
-                    image={Cube}
+                    image={IconCube}
 
                     imgAlt='Imagem de um icone de um cubo pequeno'
 
@@ -53,7 +45,7 @@ export default function Home() {
             </div>
 
             <ProductService />
-            
+
             <Section
                 subtitle='Feature one'
 
@@ -62,7 +54,7 @@ export default function Home() {
                 paragraph='Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers.'
             />
 
-            <Comments 
+            <Comments
                 peapleName='Custumer Name'
             />
 
@@ -75,8 +67,8 @@ export default function Home() {
                 paragraph='Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers.'
             />
 
-            <Comments 
-                peapleName='Name Surname'   
+            <Comments
+                peapleName='Name Surname'
             />
 
             <Section
@@ -92,7 +84,7 @@ export default function Home() {
             <Questions />
 
             <Footer />
-            
+
         </div>
-    )
+    );
 }

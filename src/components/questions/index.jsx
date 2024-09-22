@@ -31,16 +31,16 @@ export default function Questions() {
             {/* Chamando o Componente dos Cards a Direita da Seção */}
             <div>
                 {/* A "prop" - "isOpenDefault" é por Padrão "false", no Primeiro Card ela esta como "true" para Iniciar com o Card já Aberto */}
-                <QuestionCard isOpenDefault='true'/>
+                <QuestionCard isOpenDefault='true' />
                 <QuestionCard />
                 <QuestionCard />
                 <QuestionCard />
                 {/* A "prop" - "borderLine" é para Adicionar a Borda de baixo do Ultimo Card */}
-                <QuestionCard borderLine='bottom'/>
+                <QuestionCard borderLine='bottom' />
             </div>
 
         </section>
-    )
+    );
 }
 
 // Componente dos Cards 
@@ -58,7 +58,7 @@ function QuestionCard({ borderLine, isOpenDefault = false }) {
 
                 {/* Accordion com Operador Ternário */}
                 {/* "onClick" - Evento ao Clicar no Botão; "setMenuIsOpen" - Mudar a Situação do "menuIsOpen" para Diferente do que Ela estiver - Se estiver "False" fica "True" e, vice versa; "menuIsOpen ?" - Significa: O Menu "está aberto ?" - Mude para a Seta para Cima, "Se Não" - ":", Seta para Baixo.    */}
-                <button type='button' onClick={() => setIsOpen(!isOpen)} > {isOpen ? <ChevronUp /> : <ChevronDown />}</button>
+                <button type="button" onClick={() => setIsOpen(!isOpen)} > {isOpen ? <ChevronUp /> : <ChevronDown />}</button>
             </div>
 
             {/* Final do Card */}
@@ -69,5 +69,5 @@ function QuestionCard({ borderLine, isOpenDefault = false }) {
             )}
 
         </div>
-    )
+    );
 }

@@ -5,8 +5,7 @@ import './style.css';
 import ButtonPS from '../button';
 
 // Importando Imagens
-import ImageCube from '../../assets/images/icons/icon-cube.svg';
-import IconDividerSummary from '../../assets/images/icons/icon-divider.svg';
+import { IconCube, IconDivider } from '../../assets/images/importImages';
 
 export default function ProductService() {
     return (
@@ -22,7 +21,7 @@ export default function ProductService() {
                 <ButtonPS
                     buttonName='Learn more'
                 />
-                
+
             </div>
 
             {/* Parte dos Cards */}
@@ -30,7 +29,7 @@ export default function ProductService() {
                 {/* Chamando o Componente dos Cards Criado Abaixo */}
                 <SummaryCard
                     // Icone da Barra
-                    summaryDivider={IconDividerSummary}
+                    summaryDivider={IconDivider}
 
                     // Titulo do Card
                     summaryTitle='Short summary of step one'
@@ -38,7 +37,7 @@ export default function ProductService() {
 
                 <SummaryCard
                     // Icone da Barra
-                    summaryDivider={IconDividerSummary}
+                    summaryDivider={IconDivider}
 
                     // Titulo do Card
                     summaryTitle='Short summary of step two'
@@ -46,7 +45,7 @@ export default function ProductService() {
 
                 <SummaryCard
                     // Icone da Barra
-                    summaryDivider={IconDividerSummary}
+                    summaryDivider={IconDivider}
 
                     // Titulo do Card
                     summaryTitle='Short summary of step three'
@@ -61,34 +60,34 @@ export default function ProductService() {
             </div>
 
         </section>
-    )
+    );
 }
 
 // Componente dos Cards
 // As "props" Utilizadas São para - "summaryDivider" - Barra que vai Abaixo da Imagem do Cubo; "iconRemove" - Utilizada para Remover a Barra Somente Quando Chamada e Passada no Card; "summaryTitle" - Para Passar o Titulo
-function SummaryCard({summaryDivider, iconRemove, summaryTitle}) {
+function SummaryCard({ summaryDivider, iconRemove, summaryTitle }) {
     return (
         <div className='summary-container'>
-                {/* Div Somente dos Icones */}
-                <div className='summary-icons'>
-                    {/* Imagem do Cubo */}
-                    <img className='image-cube' src={ImageCube} alt='icone de um cubo pequeno' />
+            {/* Div Somente dos Icones */}
+            <div className='summary-icons'>
+                {/* Imagem do Cubo */}
+                <img className='image-cube' src={IconCube} alt="icone de um cubo pequeno" />
 
-                    {/* Imagem da Barra */}
-                    <img className={`icon-divider-summary icon-divider-${iconRemove}`} src={summaryDivider} alt='barra de separação' />
-
-                </div>
-
-                {/* Div dos Conteúdos */}
-                <div className='summary-content'>
-                    {/* Titulo do Card */}
-                    <h3>{summaryTitle}</h3>
-
-                    {/* Texto do Card */}
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-
-                </div>
+                {/* Imagem da Barra */}
+                <img className={`icon-divider-summary icon-divider-${iconRemove}`} src={summaryDivider} alt="barra de separação" />
 
             </div>
-    ) 
+
+            {/* Div dos Conteúdos */}
+            <div className='summary-content'>
+                {/* Titulo do Card */}
+                <h3>{summaryTitle}</h3>
+
+                {/* Texto do Card */}
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+
+            </div>
+
+        </div>
+    );
 }

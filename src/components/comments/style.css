@@ -1,13 +1,3 @@
-/* Configuração Geral */
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    border: none;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-}
-
 /* Estilo da Seção em Geral dos Comentarios */
 .comments-container {
     display: flex;
