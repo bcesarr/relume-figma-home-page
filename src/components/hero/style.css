@@ -10,20 +10,25 @@
     gap: 80px;
 }
 
-/* Imagem do Lado Direito do Hero */
-.hero img {   
-    width: 616px;
-    height: 640px;
+.hero-infos {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Titulo */
 .hero-infos h2 {
     font-size: 56px;
+    margin-bottom: 24px;
 }
 
 /* Paragrafo */
 .hero-infos p {
     font-size: 18px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
+}
+
+/* Imagem do Lado Direito do Hero */
+.hero img {   
+    width: 616px;
+    height: 640px;
 }

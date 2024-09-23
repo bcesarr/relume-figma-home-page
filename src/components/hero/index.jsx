@@ -13,7 +13,7 @@ export default function Hero() {
         <section className='hero'>
             <div className='hero-infos'>
                 <h2>Resonate with the<br />visitor's problem</h2>
-                <p>Describe exactly what your product or service does to solve this problem.<br /> Avoid using verbose words or phrases.</p>
+                <p>Describe exactly what your product or service does to solve this problem. Avoid using verbose words or phrases.</p>
                 
                 <div>
                     {/* Chamando Componente do Email */}
