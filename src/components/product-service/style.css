@@ -11,11 +11,12 @@
 
 /* Parte das Informações a Esquerda */
 .product-service-content-left {
-    width: 616px;
+    width: 600px;
 }
 
 /* Mini Texto Acima do Titulo */
 .product-service-content-left h6 {
+    width: 600px;
     font-size: 16px;
     margin-bottom: 16px;
 }
@@ -30,10 +31,10 @@
 /* Parte do Sumario */
 /* Onde Vai o Componente dos Cards */
 .summary-card-container{
+    width: 616px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 616px;
 }
 
 /* Div de Configuração dos Cards */
