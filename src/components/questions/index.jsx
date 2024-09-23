@@ -21,10 +21,12 @@ export default function Questions() {
 
                 <p>Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p>
 
-                {/* Chamando o Componente do Botão */}
-                <ButtonQuestion
-                    buttonName='Contact us'
-                />
+                <div>
+                    {/* Chamando o Componente do Botão */}
+                    <ButtonQuestion
+                        buttonName='Contact us'
+                    />
+                </div>
 
             </div>
 

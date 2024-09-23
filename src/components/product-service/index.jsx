@@ -18,9 +18,11 @@ export default function ProductService() {
                 <h2>Headline with USP related to how your product or service works</h2>
 
                 {/* Chamando o Componente do Botão */}
-                <ButtonPS
-                    buttonName='Learn more'
-                />
+                <div>
+                    <ButtonPS
+                        buttonName='Learn more'
+                    />
+                </div>
 
             </div>
 

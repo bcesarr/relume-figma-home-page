@@ -14,9 +14,11 @@ export default function Hero() {
             <div className='hero-infos'>
                 <h2>Resonate with the<br />visitor's problem</h2>
                 <p>Describe exactly what your product or service does to solve this problem.<br /> Avoid using verbose words or phrases.</p>
-
-                {/* Chamando Componente do Email */}
-                <EmailInputButton underline='true' />
+                
+                <div>
+                    {/* Chamando Componente do Email */}
+                    <EmailInputButton underline='true' />
+                </div>
 
             </div>
 

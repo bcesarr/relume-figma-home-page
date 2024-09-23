@@ -51,10 +51,13 @@ export default function Header() {
                 )}
             </div>
 
-            {/* Chamando o Componente do Botão e Trocando com a "pror" - "switch" o Estilo e Cor do Botão */}
-            <ButtonHeader switchButton='switch'
-                buttonName='Try it for free'
-            />
+            <div>
+                {/* Chamando o Componente do Botão e Trocando com a "pror" - "switch" o Estilo e Cor do Botão */}
+                <ButtonHeader switchButton='switch'
+                    buttonName='Try it for free'
+                />
+            </div>
+            
         </header>
     );
 }

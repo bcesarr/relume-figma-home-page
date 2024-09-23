@@ -25,10 +25,12 @@ export default function Section({ subtitle, title, paragraph, aligment }) {
                 {/* Texto da Seção */}
                 <p>{paragraph}</p>
 
-                {/* Chamando o Componente do Botão */}
-                <ButtonSection
-                    buttonName='Learn more'
-                />
+                <div>
+                    {/* Chamando o Componente do Botão */}
+                    <ButtonSection
+                        buttonName='Learn more'
+                    />
+                </div>
 
             </div>
 

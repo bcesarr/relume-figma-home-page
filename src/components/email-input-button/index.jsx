@@ -7,7 +7,7 @@ export default function emailInputButton({ underline }) {
         <div className='email-input-container'>
             <div className='email-button'>
                 {/* Input para Colocar o Email */}
-                <input type="email" placeholder=' Enter your email' />
+                <input type="email" placeholder='Enter your email' />
 
                 {/* Botão */}
                 <button type="button">Try it for free</button>
